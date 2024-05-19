@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -384,13 +384,13 @@
 		"compilationTarget": {
 			"MatchaToken.sol": "SarahKhushiiCoin"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
@@ -405,11 +405,11 @@
 			]
 		},
 		"MatchaToken.sol": {
-			"keccak256": "0x6a9914315caac7ab461a3b7eb3af74a1b85e37d2a6066e1753171c7361626679",
+			"keccak256": "0x6e5eb609f851a9ba777907847dfec5d4f1eb2776369610725bfcf729c1119d27",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://4eb657d842a2230a330225e9d085073456db4cb6fc4da2098cded25c66ba2523",
-				"dweb:/ipfs/QmWZTXtS9G2K1rcs1zYn6zKR9P18ij66cEL7QTM4cVQryJ"
+				"bzz-raw://60bde980feee66dde3323f153530a473fdab0bcd4692c1f383a052f02e755845",
+				"dweb:/ipfs/QmZ521jfNhp7gzWRteWDdWsfyRL7RtbcgnR5zEuunVi64Q"
 			]
 		},
 		"SafeMath.sol": {
