@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MatchaToken.sol": "MatchaToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MatchaToken.sol": {
+			"keccak256": "0x1300ea95f592fc6a7a3a07ead5e0436458c3b0ad5f43c4d1363594521c3cd68b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://15df18ad58ac9d43183b3ba047e139f446bd8a673b01772b12c56e664d366f8c",
+				"dweb:/ipfs/QmWu7jUPzK1YcQhq86Wg4w6Z9E63WXNfvx6SXAJgKn3Zu7"
+			]
+		}
+	},
+	"version": 1
+}
