@@ -9,12 +9,12 @@ import "SafeMath.sol";
 contract SarahKhushiiCoin is IERC20{
     using SafeMath for uint256; ///wanna adapt this to the actual ints we are using.
 
-    string public  name = 'MatchaCoin'; //i removed the constant such that we can set a new name in a function 
-    string public constant symbol = 'MaMa';
+    string public  name = 'Matcha Token'; //i removed the constant such that we can set a new name in a function 
+    string public constant symbol = 'MATCHA';
     uint8 public constant decimals = 3;
     uint  public  _totalSupply = 40*10**6; ///SUPPLY OF 4O Million
     
-    ///changed this function to private as I dont see any reayon for them to be public, will only call the from within the contract
+    ///changed this function to private as I dont see any reason for them to be public, will only call the from within the contract
     mapping(address => uint) private  _balances;
     mapping(address => mapping(address => uint)) private _allowance;
     
@@ -34,9 +34,13 @@ contract SarahKhushiiCoin is IERC20{
     }
 
 
+    /**
+    * Function to check the amount of tokens that an owner allowed to a spender.
+    */
     function allowance (address from, address spender) public override view returns (uint256){
     return _allowance[from][spender];
     }
+
     ///inserted saftey checks + delete the from attribute as we should anyways only send from the token holder to others 
     function transfer(address to, uint256 value) public override returns (bool) {
     require(value <= _balances[msg.sender], "Insufficient balance");
