@@ -18,7 +18,7 @@ contract SarahKhushiiCoin is IERC20{
     mapping(address => uint) private  _balances;
     mapping(address => mapping(address => uint)) private _allowance;
     
-    mapping(address => uint) private nonces;/// we can still discuss if our token needs a nonce 
+    //mapping(address => uint) private nonces;/// we can still discuss if our token needs a nonce 
 
     //did not change this so we can let it be taken from the interface, no need to have it here 
     /**event Approval(address indexed owner, address indexed spender, uint value);
